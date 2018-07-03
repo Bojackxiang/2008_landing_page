@@ -1,0 +1,11 @@
+{
+  "name": "eduaustop92",
+  "version": "1.0.3",
+  "description": "AISF landing page 9.2",
+  "scripts": {
+    "build": "tar czvf aisf.tar.gz css/vendor css/*.min.css images js/vendor js/*.min.js index.html",
+    "clean": "rm -f aisf.tar.gz"
+  },
+  "author": "Hans Mong",
+  "license": "MIT"
+}
